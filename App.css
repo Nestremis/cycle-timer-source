@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+h2 {
+  font-family: Raleway, sans-serif;
+  color: slategray;
+  margin-bottom: 10vh;
+  margin-top: 4vh;
+}
+
+.app {
+  text-align: center;
+  background-color: rgb(10, 48, 60);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+  background-color: #051a21;
+  border-radius: 20px;
+  min-width: 25vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 12px 8px hsl(200, 100%, 50%);
+  margin: 0;
+}
+
+.session {
+  width: 40vh;
+  height: 10vh;
+  color: hsl(200, 100%, 50%);
+  font-family: Raleway, sans-serif;
+  font-size: 3vh;  
+}
+
+.changeMinutes {
+  margin: 4% 1%;
+  padding: 0;
+  border: none;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  font-size: 25px;
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #00AAFF, #010C10);
+  flex-direction: row;
+  border: 2px solid hsl(200, 100%, 50%);
+}
+
+.changeMinutes:hover {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #00AAFF, #032c3b);
+}
+
+.changeMinutes:focus {
+  outline-width: 0;
+}
+
+.time-inactive {
+  color: slategray;
+  font-size: 6rem;
+  padding: 1rem;
+  display: flex;
+  margin: 1vh;
+}
+
+.time-active {
+  font-size: 6rem;
+  padding: 1rem;
+  display: flex;
+  color: orange;
+  margin: 1vh;
+}
+
+.session-sign-inactive {
+  display: inline-block;
+  min-width: 9vw;
+  font-family: Raleway, sans-serif;
+  margin: 0px;
+}
+
+.session-sign-active {
+  display: inline-block;
+  min-width: 9vw;
+  color: orange;
+  font-family: Raleway, sans-serif;
+  margin: 0px;
+}
+
+/* .row {
+  margin-top: 2vh;
+} */
+
+.button {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  border: 2px solid hsl(200, 100%, 50%);
+  margin: 2rem 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  align-items: center;
+  color: hsl(200, 100%, 16%);
+  flex-direction: row;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+
+.button-primary-active {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #00AAFF, #032c3b);
+}
+
+.button-primary-active:hover {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #29b8ff, #032c3b);
+}
+
+.button-primary-inactive {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #00aaff, #032531);
+}
+
+.button-primary-inactive:hover {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #20b5ff, #032c3b);
+}
+
+.button-reset {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #00AAFF, #032936);
+  margin: 2rem 1rem;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  border: 2px solid hsl(200, 100%, 50%);
+  font-weight: 600;
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: rgb(102, 0, 0);
+}
+
+.button-reset:hover {
+  background: #00AAFF;
+  background: radial-gradient(ellipse at center, #0097e2, #032c3b);
+}
+
+.button-reset:focus {
+  outline-width: 0;
+}
